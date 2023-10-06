@@ -132,7 +132,7 @@
 * ls the file
 <img width="939" alt="cicd 9" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/c536c3d5-a669-454a-a606-9ec67eee5e72">
 
-* With the "mv" command, I move the file to a new file name "code"
+* With the "mv" command, I rename the file name  to "code"
 <img width="945" alt="cicd 10 rename" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/e896d0e3-f171-4b90-a478-8091e5734099">
 
 * To commit the file
@@ -146,3 +146,4 @@
 <img width="890" alt="cicd extra" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/05c9344d-8e19-4834-8684-39646be0a841">
 
 <img width="959" alt="cicd 15" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7d88aeea-9e4c-4df7-91fb-239d0ca9797a">
+
