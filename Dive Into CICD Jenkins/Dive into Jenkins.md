@@ -24,8 +24,6 @@
 ## Step 2: connecting Jenkins To Github config.
 
 * Open a github repo
-* <img width="926" alt="cicd 1" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/c28c55ff-ad7d-42ba-b301-04b8e21ac93e">
-
 *  On my Jenkins dashboard
 * Click on new item to create a job
 * Give the job a name
@@ -42,6 +40,11 @@
 * Refresh the page
 <img width="418" alt="cicd 13 to solve this error, click Dashboard, manage jenkins,security,scroll down CSRF protection,tick Enable proxy capacity,apply and save" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/4f536d74-990c-479b-b07d-fb92226867a1">
 
+* Tick discard old build
+<img width="958" alt="cicd 14" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/744c3970-bd53-448f-bfb3-886b5555e130">
+
+<img width="959" alt="cicd 15" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/8e0ad69a-37c0-4674-a927-323aee5a60b1">
+
 
 * On General
 * Tick Github project and fill in the created github repo url
@@ -56,7 +59,12 @@
 * Scroll down to Branches to build,
 * On build specifier, specify */main, which is the github main branch
 * Apply and save
-<img width="872" alt="jenkins to github 4" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/b3442dab-27d7-4559-9af1-c98cc06940c1">
+<img width="923" alt="cicd 18 change to main" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/e252769e-ff96-4f4e-9219-74ba85a8a3cd">
+
+* On build triggers,
+* Tick github hook triggers fir GITScm polling
+* Apply and save
+<img width="951" alt="cicd 19 tick" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/a5c81cf4-981b-49d1-a3db-82a474b1967f">
 
 * Click on Build Now
 * Notice Github Logo installed and visible on the left side navigation plane
@@ -97,5 +105,7 @@
 * On the pop up message, click yes 
 <img width="957" alt="cicd 11 click on third icon on the left, write added static page, click on drop down menu, commit and push and click yes on the the message that will appears" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/a9611b97-5649-4d5e-b2ca-253905acad85">
 
+* Reload page 
+<img width="890" alt="cicd extra" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/05c9344d-8e19-4834-8684-39646be0a841">
 
 <img width="959" alt="cicd 15" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7d88aeea-9e4c-4df7-91fb-239d0ca9797a">
