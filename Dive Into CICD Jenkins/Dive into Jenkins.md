@@ -90,3 +90,12 @@
 * With the "mv" command, I move the file to a new file name "code"
 <img width="945" alt="cicd 10 rename" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/e896d0e3-f171-4b90-a478-8091e5734099">
 
+* To commit the file
+* click on the third icon on the left navigation plane,
+* On the drop down menu,give it a commit message,
+*  click on commit and push
+* On the pop up message, click yes 
+<img width="957" alt="cicd 11 click on third icon on the left, write added static page, click on drop down menu, commit and push and click yes on the the message that will appears" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/a9611b97-5649-4d5e-b2ca-253905acad85">
+
+
+<img width="959" alt="cicd 15" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7d88aeea-9e4c-4df7-91fb-239d0ca9797a">
