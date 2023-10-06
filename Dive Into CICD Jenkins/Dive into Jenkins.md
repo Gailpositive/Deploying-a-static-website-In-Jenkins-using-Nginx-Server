@@ -43,8 +43,6 @@
 * Tick discard old build
 <img width="958" alt="cicd 14" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/744c3970-bd53-448f-bfb3-886b5555e130">
 
-<img width="959" alt="cicd 15" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/8e0ad69a-37c0-4674-a927-323aee5a60b1">
-
 
 * On General
 * Tick Github project and fill in the created github repo url
