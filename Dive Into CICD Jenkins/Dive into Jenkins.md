@@ -43,8 +43,6 @@
 <img width="418" alt="cicd 13 to solve this error, click Dashboard, manage jenkins,security,scroll down CSRF protection,tick Enable proxy capacity,apply and save" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/4f536d74-990c-479b-b07d-fb92226867a1">
 
 
-
-
 * On General
 * Tick Github project and fill in the created github repo url
   <img width="931" alt="cicd 16" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/2cc0514f-92d3-4794-ad17-d13d4b283dbb">
@@ -71,11 +69,24 @@
 * click on coldspaces
 <img width="926" alt="cicd 1" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/17b61831-d976-4d78-a0b2-661a4919f7c7">
 
-* Default Vscode 
+* Online Vscode 
 <img width="947" alt="cicd 3" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/8ade576f-e7b3-480e-bab1-6b32f4cc6a76">
 
-* I download the file with the "wget" command and it saved into a zip file
+* I download the zip file with the "wget" command
 <img width="937" alt="cicd 4" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7a9ee737-0a9f-499d-bbb1-6a4528dc7fb9">
 
 * ls the file
 <img width="942" alt="cicd 5" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/c5a5c994-0925-47ce-b942-305ec97820f7">
+
+* To unzip the file, I execute the "unzip" command
+<img width="956" alt="cicd 6" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/87f8e98a-befd-4970-a3cc-ab93a73a1598">
+
+* I execute the "rm" command  the unzip file
+<img width="938" alt="cicd 7" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/5e9bbfbd-b99b-4b74-8bc5-767d30cd3a31">
+
+* ls the file
+<img width="939" alt="cicd 9" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/c536c3d5-a669-454a-a606-9ec67eee5e72">
+
+* With the "mv" command, I move the file to a new file name "code"
+<img width="945" alt="cicd 10 rename" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/e896d0e3-f171-4b90-a478-8091e5734099">
+
