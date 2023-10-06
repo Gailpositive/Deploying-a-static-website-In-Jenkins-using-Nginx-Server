@@ -22,7 +22,11 @@
 
 
 # Step 2: connecting Jenkins To Github config.
-* On my Jenkins dashboard
+
+* Open a github repo
+* <img width="926" alt="cicd 1" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/c28c55ff-ad7d-42ba-b301-04b8e21ac93e">
+
+*  On my Jenkins dashboard
 * Click on new item to create a job
 * Give the job a description
 * Tick Github project and fill in the created github repo url
@@ -41,4 +45,5 @@
 * Click on Build Now
 * Notice Github Logo installed  on the left side navigation plane
 <img width="634" alt="see git hub logo has added on the navigation plane on the left 5" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/88046bc6-39ea-41d4-98a7-fae9550b96a5">
+
 
