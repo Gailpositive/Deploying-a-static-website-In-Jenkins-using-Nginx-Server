@@ -5,8 +5,10 @@
 * Create 3 branches and parameterize jenkins
 
 
-## Step 1
-* Spine up an EC2 Aws instance
+## Step 1: Spine up an EC2 Aws instance 
+
+
+## step 2: Install Jenkins Script on terminal
 * On my terminal create a file with the "touch" command
 * sudo vi into the file
 * paste the Jenkins installation script
@@ -68,7 +70,7 @@
 * Notice Github Logo installed and visible on the left side navigation plane
 <img width="634" alt="see git hub logo has added on the navigation plane on the left 5" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/88046bc6-39ea-41d4-98a7-fae9550b96a5">
 
-## Go to the  github repo
+## Go to the  github repo to config webhook
 * Click on settings
 * click on webhooks
 * Click add webhook
@@ -76,7 +78,7 @@
 * On content type, click application/json
 * apply and save
 
-* Back to jenkins,
+## Back to jenkins,
 * On build envornment
 * tick delete work space before build starts
 <img width="943" alt="cicd 20" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/6dca02fa-493e-4c11-b075-d02f961ed3a5">
@@ -92,7 +94,6 @@
 <img width="954" alt="cicd 22" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/5be28653-48e8-47a8-b88f-ddac193d992f">
 
 * Click on build now
-
 <img width="954" alt="cicd 23 build is successfull" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7f1ab2c7-d71a-42fa-88bb-3e0b81852f79">
 
 
@@ -104,9 +105,9 @@
 <img width="642" alt="cicd 25" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/564328b0-d55f-4598-9f52-a4e0e4d45ab7">
 
 
+## Step 3: Create a static web page 
 
-## Step 3: Create a static web page
-
+* Get code from startboothstrap.com
 * To navigate to the online vscode on github repo
 * click on code
 * click on coldspaces
@@ -143,5 +144,34 @@
 * Reload page 
 <img width="890" alt="cicd extra" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/05c9344d-8e19-4834-8684-39646be0a841">
 
-<img width="959" alt="cicd 15" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7d88aeea-9e4c-4df7-91fb-239d0ca9797a">
+## Step 4: Installation of nginx webserver to host static site
+
+* Install nginx witht he command "sudo apt install nginx -y"
+<img width="836" alt="cicd 26 install nginx" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/0aabba17-e317-4775-a79f-51ac795ce759">
+
+* nginx is active and enable
+<img width="841" alt="cicd 27 nginx is runing and enabled" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/a6c09e7d-b92a-49ee-96e8-4710bce61fb6">
+
+* IP address :80 is listenning
+* Open port 80 to anywhere security group
+<img width="929" alt="cicd 30 open port 80 inbound rules for nginx" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/aca52d3e-ea15-451d-923c-201be8a29368">
+
+* IP address :80 is listenning
+<img width="887" alt="cicd 31 nginx is running on a web browser" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/a7429a15-118b-452f-8a49-546bbde2b4cf">
+
+
+* Execute the command "rm -rf /var/www/html/index.nginx-debian.html" to remove the nginx index file
+* Execute the IP address :80
+* Index file deleted
+<img width="911" alt="cicd 32 nginx default is removed" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/efa51f1b-f635-4e2b-9968-5dcbcabe7e1f">
+
+* I copy all files in the code to /var/ww/html
+* Execute the script
+<img width="945" alt="cicd 33 code to execute" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/368fbd82-d67c-446c-8c6f-405468d27d97">
+
+* Build successful
+<img width="915" alt="cicd 34  build was sucessful" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/cb1dc49a-c7e9-4b52-99f9-78e784a8fafc">
+
+* Static site running
+<img width="959" alt="cicd 35 my static site is up and running successfully" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/10d88c64-7ef1-4215-850d-0acb4bec56a4">
 
