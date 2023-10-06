@@ -1,11 +1,11 @@
-## Jenkins Tasks
+# Jenkins Tasks
 
 * Create an EC2 instance and install jenkins
 * Connect the jenkins server to a static site available on github
 * Create 3 branches and parameterize jenkins
 
 
-# Step 1
+## Step 1
 * Spine up an EC2 Aws instance
 * On my terminal create a file with the "touch" command
 * sudo vi into the file
@@ -21,7 +21,7 @@
 <img width="801" alt="add password" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/53f0d6e0-cbd9-4363-ba54-4d9b260a3449">
 
 
-# Step 2: connecting Jenkins To Github config.
+## Step 2: connecting Jenkins To Github config.
 
 * Open a github repo
 * <img width="926" alt="cicd 1" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/c28c55ff-ad7d-42ba-b301-04b8e21ac93e">
@@ -64,4 +64,18 @@
 * Notice Github Logo installed and visible on the left side navigation plane
 <img width="634" alt="see git hub logo has added on the navigation plane on the left 5" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/88046bc6-39ea-41d4-98a7-fae9550b96a5">
 
+## Step 3: Create a static web page
 
+* To navigate to the online vscode on github repo
+* click on code
+* click on coldspaces
+<img width="926" alt="cicd 1" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/17b61831-d976-4d78-a0b2-661a4919f7c7">
+
+* Default Vscode 
+<img width="947" alt="cicd 3" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/8ade576f-e7b3-480e-bab1-6b32f4cc6a76">
+
+* I download the file with the "wget" command and it saved into a zip file
+<img width="937" alt="cicd 4" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7a9ee737-0a9f-499d-bbb1-6a4528dc7fb9">
+
+* ls the file
+<img width="942" alt="cicd 5" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/c5a5c994-0925-47ce-b942-305ec97820f7">
