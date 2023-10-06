@@ -70,6 +70,43 @@
 * Notice Github Logo installed and visible on the left side navigation plane
 <img width="634" alt="see git hub logo has added on the navigation plane on the left 5" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/88046bc6-39ea-41d4-98a7-fae9550b96a5">
 
+## Go to the  github repo
+* Click on settings
+* click on webhooks
+* Click add webhook
+* On payload url, input the IP address:8080/github-webhook/
+* On content type, click application/json
+* apply and save
+
+* Back to jenkins,
+* On build envornment
+* tick delete work space before build starts
+<img width="943" alt="cicd 20" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/6dca02fa-493e-4c11-b075-d02f961ed3a5">
+
+* On build enviroment
+* Delete work space before build starts
+<img width="932" alt="cicd 21" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/ce5dffe7-849a-4856-8016-d5555f440e0d">
+
+* Click step
+* click execute shell to display shell terminal
+* type just ls
+* apply and save
+<img width="954" alt="cicd 22" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/5be28653-48e8-47a8-b88f-ddac193d992f">
+
+* Click on build now
+
+<img width="954" alt="cicd 23 build is successfull" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/7f1ab2c7-d71a-42fa-88bb-3e0b81852f79">
+
+
+* click on console output to view script
+<img width="923" alt="cicd 24 console output successful" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/331244bc-e865-4873-b1fd-6acdaebad3dc">
+
+* On my terminal
+* ls the /var path
+<img width="642" alt="cicd 25" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/564328b0-d55f-4598-9f52-a4e0e4d45ab7">
+
+
+
 ## Step 3: Create a static web page
 
 * To navigate to the online vscode on github repo
