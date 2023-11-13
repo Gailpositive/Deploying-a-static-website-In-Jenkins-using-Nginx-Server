@@ -42,6 +42,7 @@ echo installation successfull...
 
 sudo systemctl status jenkins
 ------------------------------------------------------------------
+* You must run this script to install jenkins: bash jenkins_install.sh
 * cat to see the file
 *  Jenkins is actively enabled
 <img width="845" alt="jenkins installation script" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/2b152c0c-407d-4ec6-a606-1263e7c8b1ed">
