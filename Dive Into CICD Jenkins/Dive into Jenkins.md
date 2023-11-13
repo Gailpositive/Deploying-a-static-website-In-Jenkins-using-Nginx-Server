@@ -9,10 +9,41 @@
 
 
 ## step 2: Install Jenkins Script on terminal
-* On my terminal create a file with the "touch" command
-* sudo vi into the file
-* paste the Jenkins installation script
-* Jenkins is actively enabled
+* On my terminal, install jenkins file with the follow command:
+* To careate the jenkins file: touch jenkins_install.sh
+* vi into the jenkins_install.sh
+* copy jenkins installation script below and past:
+------------------------------------------------------------------------------------------------
+* #!/bin/bash
+  
+# Jenkins installation scripts
+
+# Update apt packing list
+
+sudo apt update -y
+
+# This is the Debian package repository of Jenkins to automate installation and upgrade. To use this repository, first add the key to your system:
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    
+# Then add a Jenkins apt repository entry:
+
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+# Update your local package index, then finally install Jenkins:
+
+sudo apt-get update -y
+  sudo apt-get install fontconfig openjdk-11-jre -y
+  sudo apt-get install jenkins -y
+   
+#When done
+echo installation successfull...
+
+sudo systemctl status jenkins
+------------------------------------------------------------------
+* cat to see the file
+*  Jenkins is actively enabled
 <img width="845" alt="jenkins installation script" src="https://github.com/Gailpositive/Jenkins-CICD-pipeline/assets/111061512/2b152c0c-407d-4ec6-a606-1263e7c8b1ed">
 
 * TCP/Port 8080 inbound rules open to anywhere
