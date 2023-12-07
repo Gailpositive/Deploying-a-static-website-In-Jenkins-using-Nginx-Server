@@ -1,1 +1,2 @@
-A simple CICD static page
+## Deploying A simple CICD static page
+# This project showcases an advanced methodology for hosting a static website by integrating Jenkins automation, an Nginx server, AWS EC2 instances, and GitHub connectivity. The implementation includes the use of webhooks to seamlessly connect Jenkins to GitHub, streamlining the entire build and deployment process. Additionally, AWS EC2 instances are employed for robust hosting, while Jenkins is parameterized for enhanced flexibility. The project structure incorporates three branches for efficient version control, ensuring a comprehensive and organized approach to deploying static web content.
